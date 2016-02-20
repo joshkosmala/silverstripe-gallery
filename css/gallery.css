@@ -1,0 +1,21 @@
+.typography ul#GalleryContent {
+	list-style: none;
+	margin: 20px 0 0 0;
+	}
+	ul#GalleryContent li {
+		display: inline;
+	}
+.typography ul#Galleries li { list-style-type: none; }
+
+
+ul#Galleries #GalleryPreview {
+	display: none;
+}
+.content-container article {
+	width: 800px;
+	float: right;
+}
+.sidebar {
+	float: left;
+	width:250px;
+}
