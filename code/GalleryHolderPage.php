@@ -2,6 +2,10 @@
 
 class GalleryHolderPage extends Page {
 
+	public static $allowed_children = array(
+		'GalleryPage'
+	);
+
 	function onBeforeWrite() {
 		parent::onBeforeWrite();
 		$this->checkFolder();
