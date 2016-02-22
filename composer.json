@@ -1,0 +1,21 @@
+{
+  "name": "joshkosmala/silverstripe-gallery",
+  "description": "Add a simple yet functional Shadowbox Gallery to your SilverStripe pages",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/joshkosmala/silverstripe-mappable",
+  "keywords": ["silverstripe", "cwp", "common web platform", "gallery", "image gallery", "shadowbox"],
+  "license": "MIT",
+  "authors": [
+    {"name": "Josh Kosmala","email": "josh@novaweb.co.nz"}
+  ],
+  "support": {
+    "issues": "https://github.com/joshkosmala/silverstripe-mappable/issues"
+  },
+  "require": {
+    "silverstripe/cms": "~3.1",
+    "silverstripe/framework": "~3.1"
+  },
+  "extra": {
+    "installer-name": "gallery"
+  }
+}
